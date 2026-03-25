@@ -1,9 +1,21 @@
-
+html {
+    scroll-behavior: smooth;
+}
 
 body{
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color:#fff;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-block: 0;
 }
 
 a {
@@ -13,6 +25,48 @@ a {
 ul,
 ol {
     list-style-type: none;
+    margin-block: 0;
+        padding-left: 0;
+}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+                                           /* heder */
+
+.header-page{
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+}
+
+.header-navigation{
+    display: flex;
+    align-items: center;
+}
+
+.header-navigation-list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.logo{
+    padding: 24px 0;
+    margin-right: 76px;
 }
 
 .logo{
@@ -32,7 +86,15 @@ ol {
     color: #f4f4fd;
  }
 
+ .contacts-list {
+     display: flex;
+     align-items: center;
+     gap: 40px;
+ }
+
 .header-links{
+    display: block;
+    padding: 24px 0;
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -42,9 +104,13 @@ ol {
 
 .contacts{
     font-style: normal;
+    margin-left: auto;
 }
 
 .contacts-link{
+    display: block;
+    padding: 24px 0;
+
     font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -57,13 +123,18 @@ ol {
 .contacts-link:focus{
     color: #404bbf;
 }
+                                         /* hero-main */
 
-.hero{
-    background-color: #2e2f42;;
+.hero{ 
+    background-color: #2e2f42;
+    padding: 188px 472px;
 }
 
 .main-title{
+    margin: 0 auto;
+    max-width: 496px;
     font-weight: 700;
+    margin-bottom: 48px;
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
@@ -72,6 +143,11 @@ ol {
 }
 
 .btn{
+   display: block;
+   margin: 0 auto;
+   border: none;
+    border-radius: 4px;
+        padding: 16px 32px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         background-color: #4d5ae5;
         cursor: pointer;
@@ -87,12 +163,41 @@ ol {
     background-color: #404bbf;
 }
 
+ .visually-hidden { 
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.features-info{
+text-align: center;
+}
+
+.features-list{
+ display: flex;
+ gap: 24px;
+ padding-top: 120px;
+padding-bottom: 120px;
+}
+
 .hero-title{
+    padding-bottom: 8px;
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+}
+
+.features-item{
+    width: calc((100% - 24px * 3) / 4);
 }
 
 .hero-text{
@@ -101,12 +206,14 @@ ol {
         letter-spacing: 0.02em;
         color: #434455;
 }
-
+                                          /* section-team */
 .section-team{
     background-color: #f4f4fd;
 }
 
 .team-inf{
+    padding-top: 120px;
+    padding-bottom: 72px;
     font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -114,12 +221,22 @@ ol {
         text-align: center;
         color: #2e2f42;
 }
+.team-inf-list{
+    display: flex;
+    gap: 24px;
+    padding-bottom: 120px;
+}
 
 .team-inf-intem{
-    background-color: #ffffff;
+background-color: #ffffff;
+}
+
+.card{
+    padding-top: 32px; 
 }
 
 .team-name{
+    padding-bottom: 8px;
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -129,6 +246,7 @@ ol {
 }
 
 .team-prof{
+    padding-bottom: 32px;
     font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -136,7 +254,16 @@ ol {
         color: #434455;
 }
 
+.prtf-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+    padding-bottom: 120px;
+}
+
 .prtf-info{
+    padding-top: 120px;
+    padding-bottom: 72px;
     font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -145,7 +272,17 @@ ol {
         color: #2e2f42;
 }
 
+.card-portfolio-text{
+display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+    padding: 32px 16px;
+}
+
 .prtf-app{
+    padding-bottom: 8px;
 font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -154,6 +291,7 @@ font-weight: 500;
 }
 
 .prtf-text{
+    
     font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;

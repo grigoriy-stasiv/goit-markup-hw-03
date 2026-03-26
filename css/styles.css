@@ -281,10 +281,8 @@ display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    
-    border-bottom: 1px solid #e7e9fc;
-        border-left: 1px solid #e7e9fc;
-        border-right: 1px solid #e7e9fc;
+    border: 1px solid #e7e9fc;
+        border-top: none;
     padding: 32px 16px;
 }
 
@@ -298,7 +296,6 @@ font-weight: 500;
 }
 
 .prtf-text{
-    
     font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -308,9 +305,7 @@ font-weight: 500;
                          /* footer */
    
 .footer-logo{
-    
-    padding-left: 0;
-    padding-bottom: ;
+     padding-left: 0;
 }
 
 .footer-page{

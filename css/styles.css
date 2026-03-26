@@ -327,6 +327,7 @@ font-weight: 500;
    
  .footer-logo{
     padding: 0;
+    margin: 0;
  }                        
 .footer-page{
     padding-top: 100px;
@@ -335,9 +336,8 @@ background-color: #2e2f42;
 }
 
 .footer-text{
+    margin-top: 16px;
     max-width: 264px;
-    padding-top: 16px;
-    padding-left: 0;
     font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;

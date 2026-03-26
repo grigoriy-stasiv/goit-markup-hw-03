@@ -213,7 +213,7 @@ padding-bottom: 120px;
 
 .team-inf{
     padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -229,6 +229,7 @@ padding-bottom: 120px;
 
 .team-inf-intem{
 background-color: #ffffff;
+border-radius: 0 0 4px 4px
 }
 
 .card{
@@ -254,11 +255,14 @@ background-color: #ffffff;
         color: #434455;
 }
 
+                          /* section-prtf" */
+
 .prtf-list{
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
     padding-bottom: 120px;
+    
 }
 
 .prtf-info{
@@ -278,6 +282,9 @@ display: flex;
     justify-content: flex-start;
     flex-direction: column;
     
+    border-bottom: 1px solid #e7e9fc;
+        border-left: 1px solid #e7e9fc;
+        border-right: 1px solid #e7e9fc;
     padding: 32px 16px;
 }
 
@@ -298,11 +305,24 @@ font-weight: 500;
         color: #434455;
 }
 
+                         /* footer */
+   
+.footer-logo{
+    
+    padding-left: 0;
+    padding-bottom: ;
+}
+
 .footer-page{
+    padding-top: 100px;
+    padding-bottom: 100px;
 background-color: #2e2f42;
 }
 
 .footer-text{
+    max-width: 264px;
+    padding-top: 16px;
+    padding-left: 0;
     font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;

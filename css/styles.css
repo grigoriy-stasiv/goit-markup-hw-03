@@ -164,7 +164,7 @@ img {
     background-color: #404bbf;
 }
 
-                                                                    /*features*/
+                /*features*/
 
  .visually-hidden { 
     position: absolute;
@@ -179,6 +179,11 @@ img {
     overflow: hidden;
 }
 
+.features{
+padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .features-info{
 text-align: center;
 }
@@ -186,8 +191,7 @@ text-align: center;
 .features-list{
  display: flex;
  gap: 24px;
- padding-top: 120px;
-padding-bottom: 120px;
+ 
 }
 
 .hero-title{
@@ -211,12 +215,13 @@ padding-bottom: 120px;
 }
                        /* section-team */
 .section-team{
+    padding-top: 120px;
+    padding-bottom: 120px;
     background-color: #f4f4fd;
 }
 
 .team-inf{
-    padding-top: 120px;
-    margin-bottom: 72px;
+    padding-bottom: 72px;
     font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -228,7 +233,7 @@ padding-bottom: 120px;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    padding-bottom: 120px;
+    
 }
 
 .team-inf-intem{
@@ -265,11 +270,16 @@ border-radius: 0 0 4px 4px
 
                           /* section-prtf" */
 
+.section-prtf{
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
+
 .prtf-list{
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
-    padding-bottom: 120px;
 }
 
 .prtf-intem{
@@ -278,7 +288,6 @@ border-radius: 0 0 4px 4px
 }
 
 .prtf-info{
-    padding-top: 120px;
     padding-bottom: 72px;
     font-weight: 700;
         font-size: 36px;

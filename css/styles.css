@@ -127,7 +127,7 @@ img {
 
 .hero{ 
     background-color: #2e2f42;
-    padding: 188px 472px;
+    padding: 188px;
 }
 
 .main-title{
@@ -233,12 +233,16 @@ border-radius: 0 0 4px 4px
 }
 
 .card{
-    padding-top: 32px; 
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 8px;
+        padding: 32px 16px;
 }
 
 .team-name{
-    padding-bottom: 8px;
-    font-weight: 500;
+     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
@@ -247,7 +251,6 @@ border-radius: 0 0 4px 4px
 }
 
 .team-prof{
-    padding-bottom: 32px;
     font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -263,6 +266,10 @@ border-radius: 0 0 4px 4px
     gap: 48px 24px;
     padding-bottom: 120px;
     
+}
+
+.prtf-intem{
+    max-width: 360px;
 }
 
 .prtf-info{
@@ -304,10 +311,6 @@ font-weight: 500;
 
                          /* footer */
    
-.footer-logo{
-     padding-left: 0;
-}
-
 .footer-page{
     padding-top: 100px;
     padding-bottom: 100px;
